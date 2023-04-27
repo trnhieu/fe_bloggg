@@ -1,0 +1,10 @@
+export const postSelector = (state) => state.posts.postAll;
+export const categoryAllSelector = (state) => state.posts.categoryAll;
+export const userAllSelector = (state) => state.users.getAllUsers;
+export const userTokenSelector = (state) => state.users.token;
+export const imageSelector = (state) => state.posts.image;
+export const postDraftSelector = (state) => state.posts.postDraft;
+export const postDraftByIdSelector = (state) => state.posts.draftById;
+export const postPendingSelector = (state) => state.posts.postPending;
+export const postActionSelector = (state) => state.posts.postAction;
+export const darkModSeletor = (state) => state.darkMode.isdarkModeOn;
